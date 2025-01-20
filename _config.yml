@@ -1,0 +1,8 @@
+baseurl: ""
+url: "https://www.consolevoorraad.nl"
+plugins:
+  - jekyll-sitemap
+title: "ConsoleVoorraad.nl"
+description: "Blijf op de hoogte van de nieuwste consolevoorraad en aanbiedingen."
+email: jeffrey.overmeer@gmail.com
+
