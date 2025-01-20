@@ -44,14 +44,15 @@ title: "Home"
         button.classList.add('bg-blue-500', 'text-white');
 
         // Filter articles
-        articles.forEach(article => {
-          const articleCategory = article.getAttribute('data-category');
-          if (category === 'all' || articleCategory === category) {
-            article.style.display = 'block';
-          } else {
-            article.style.display = 'none';
-          }
-        });
+      articles.forEach(article => {
+  const articleCategory = article.getAttribute('data-category');
+  if (category === 'all' || articleCategory.split(',').includes(category)) {
+    article.style.display = 'block';
+  } else {
+    article.style.display = 'none';
+  }
+});
+
       });
     });
   });
