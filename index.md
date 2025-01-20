@@ -19,7 +19,7 @@ title: "Home"
   <div class="container mx-auto mt-8">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {% for article in site.posts %}
-      <article class="article-item bg-white rounded shadow p-4 border border-gray-200" data-category="{{{ article.categories | join: ',' }}">
+      <article class="article-item bg-white rounded shadow p-4 border border-gray-200" data-category="{{ article.categories | join: ',' }}">
         <h3 class="text-xl font-bold"><a href="{{ article.url }}">{{ article.title }}</a></h3>
         <p class="mt-2 text-sm text-gray-600">{{ article.excerpt | truncatewords: 20 }}</p>
         <a href="{{ article.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Lees meer</a>
