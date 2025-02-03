@@ -71,4 +71,4 @@ De PS5 Slim is een welkome evolutie van Sony's next-gen console. Het compactere 
 
 De PS5 Slim bewijst dat Sony goed heeft geluisterd naar feedback op het originele model. Het resultaat is een verfijnde console die de beste eigenschappen van zijn voorganger behoudt en verbetert waar mogelijk.
 
-*Wil je de PS5 Slim zelf in huis halen? Check onze [voorraadpagina](/voorraad) voor de laatste beschikbaarheid bij verschillende retailers.*
+*Wil je de PS5 Slim zelf in huis halen? Check onze [voorraadpagina](/voorraad.html) voor de laatste beschikbaarheid bij verschillende retailers.*
