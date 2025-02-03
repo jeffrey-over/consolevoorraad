@@ -1,0 +1,116 @@
+---
+layout: default
+title: "Contact"
+---
+
+<div class="min-h-screen bg-dark">
+  <!-- Hero Section -->
+  <section class="relative py-24 bg-[url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=3270')] bg-cover bg-center">
+    <div class="absolute inset-0 bg-dark/80 backdrop-blur-sm"></div>
+    <div class="relative my-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">Contact</h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">Heb je een vraag of suggestie? Neem contact met ons op!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-dark-light/30 backdrop-blur-xl border border-gray-800/50 rounded-2xl p-8">
+        <form action="https://formspree.io/f/xovjende" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-400 mb-2">Naam</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              class="w-full px-4 py-3 bg-dark border border-gray-800 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-white"
+              placeholder="Jouw naam"
+            >
+          </div>
+
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-400 mb-2">E-mailadres</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="w-full px-4 py-3 bg-dark border border-gray-800 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-white"
+              placeholder="jouw@email.nl"
+            >
+          </div>
+
+          <div>
+            <label for="subject" class="block text-sm font-medium text-gray-400 mb-2">Onderwerp</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              required
+              class="w-full px-4 py-3 bg-dark border border-gray-800 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-white"
+              placeholder="Onderwerp van je bericht"
+            >
+          </div>
+
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-400 mb-2">Bericht</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              required
+              class="w-full px-4 py-3 bg-dark border border-gray-800 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-white"
+              placeholder="Typ hier je bericht..."
+            ></textarea>
+          </div>
+
+          <div class="flex justify-end">
+            <button
+              type="submit"
+              class="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-dark"
+            >
+              Verstuur Bericht
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Additional Contact Info -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-dark-light/30 backdrop-blur-xl border border-gray-800/50 rounded-2xl p-6">
+          <div class="flex items-center gap-4">
+            <div class="bg-indigo-500/10 p-3 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-white">Hulp gezocht?</h3>
+              <p class="text-gray-400">Contacteer!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-light/30 backdrop-blur-xl border border-gray-800/50 rounded-2xl p-6">
+          <div class="flex items-center gap-4">
+            <div class="bg-indigo-500/10 p-3 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-white">Locatie</h3>
+              <p class="text-gray-400">Nederland</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

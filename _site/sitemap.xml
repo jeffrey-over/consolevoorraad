@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/reviews/nintendo/2024/03/18/nintendo-switch-oled-review.html</loc>
+<lastmod>2024-03-18T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/troubleshooting/xbox/2024/03/19/xbox-series-x-troubleshoot.html</loc>
+<lastmod>2024-03-19T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/guides/tech/2024/03/20/beste-instellingen-lg-cx.html</loc>
+<lastmod>2024-03-20T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/guides/playstation/2024/03/20/instellingen-nieuwe-playstation5.html</loc>
+<lastmod>2024-03-20T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/reviews/playstation/2025/01/19/ps5-slim-review.html</loc>
+<lastmod>2025-01-19T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/artikelen.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/voorraad.html</loc>
+</url>
+</urlset>
